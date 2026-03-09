@@ -11,7 +11,7 @@ RUN echo 'x11-libs/gdk-pixbuf jpeg' > /etc/portage/package.use/x11-libs-gdk-pixb
 RUN echo -e '*/* PYTHON_TARGETS: -* python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14\ndev-lang/python bluetooth' > /etc/portage/package.use/dev-lang-python.use
 RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} --jobs-tmpdir-require-free-gb=0 -q app-admin/sudo app-eselect/eselect-repository app-misc/jq app-portage/gentoolkit dev-util/pkgcheck dev-util/shellcheck-bin dev-vcs/git \
     dev-libs/boost virtual/fortran dev-lang/lua x11-base/xorg-proto net-libs/nodejs app-eselect/eselect-rust dev-lang/rust-bin \ 
-    virtual/imagemagick-tools virtual/lapack virtual/cblas virtual/blas virtual/ttf-fonts virtual/libusb virtual/cron virtual/libudev sci-ml/caffe2 sci-ml/onnx media-video/ffmpeg  
+    virtual/imagemagick-tools virtual/lapack virtual/cblas virtual/blas virtual/ttf-fonts virtual/libusb virtual/cron virtual/libudev media-video/ffmpeg  
 RUN FEATURES='-usersandbox' emerge -tNDuq --jobs=${JOB_COUNT} --jobs-tmpdir-require-free-gb=0 @world
 # Cleanup
 RUN emerge -C sys-apps/man-pages virtual/man 
