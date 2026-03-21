@@ -7,6 +7,7 @@ RUN echo 'net-libs/nodejs npm' > /etc/portage/package.use/net-libs-nodejs.use
 RUN echo -e 'virtual/imagemagick-tools jpeg tiff\nmedia-gfx/imagemagick jpeg tiff' > /etc/portage/package.use/virtual-imagemagick-tools.use 
 RUN echo 'dev-python/pillow webp' > /etc/portage/package.use/dev-python-pillow.use 
 RUN echo 'x11-libs/cairo X' > /etc/portage/package.use/x11-libs-cairo.use
+RUN echo 'net-proxy/haproxy zlib -slz' > /etc/portage/package.use/net-proxy-haproxy.use
 RUN echo 'x11-libs/gdk-pixbuf jpeg' > /etc/portage/package.use/x11-libs-gdk-pixbuf.use
 RUN echo -e '*/* PYTHON_TARGETS: -* python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14\ndev-lang/python bluetooth' > /etc/portage/package.use/dev-lang-python.use
 RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} --jobs-tmpdir-require-free-gb=0 -q app-admin/sudo app-eselect/eselect-repository app-misc/jq app-portage/gentoolkit dev-util/pkgcheck dev-util/shellcheck-bin dev-vcs/git \
