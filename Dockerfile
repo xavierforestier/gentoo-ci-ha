@@ -12,7 +12,7 @@ RUN echo -e '*/* PYTHON_TARGETS: -* python3_14\n*/* PYTHON_SINGLE_TARGET: -* pyt
 RUN touch /etc/portage/package.use/zzz.use
 RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} --jobs-tmpdir-require-free-gb=0 -q --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
     acct-group/haproxy acct-group/mosquitto acct-group/openct acct-group/pcscd acct-user/haproxy acct-user/mosquitto acct-user/pcscd \
-    app-admin/logrotate app-admin/sudo app-arch/lz4 app-eselect/eselect-mpg123 app-eselect/eselect-repository app-eselect/eselect-rust app-misc/jq app-misc/mosquitto app-portage/gentoolkit \
+    app-admin/logrotate app-arch/lz4 app-eselect/eselect-mpg123 app-eselect/eselect-rust app-misc/jq app-misc/mosquitto \
     dev-cpp/abseil-cpp dev-cpp/xsimd dev-db/mysql-connector-c dev-debug/gdb dev-lang/orc dev-lang/swig \
     dev-libs/cJSON dev-libs/darts dev-libs/double-conversion dev-libs/isa-l dev-libs/jemalloc dev-libs/libatomic_ops dev-libs/libfastjson dev-libs/liblinear dev-libs/libsodium dev-libs/libtomcrypt dev-libs/libtommath dev-libs/libyaml dev-libs/protobuf dev-libs/xerces-c dev-libs/yajl \
     dev-perl/Clone dev-perl/Devel-CheckLib dev-perl/Encode-Locale dev-perl/File-Listing dev-perl/HTML-Parser dev-perl/HTML-Tagset dev-perl/HTTP-Cookies dev-perl/HTTP-Date dev-perl/HTTP-Message dev-perl/HTTP-Negotiate dev-perl/IO-HTML dev-perl/IO-Socket-INET6 dev-perl/libwww-perl \
