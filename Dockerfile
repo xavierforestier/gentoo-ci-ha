@@ -10,11 +10,11 @@ RUN echo 'x11-libs/cairo X' > /etc/portage/package.use/x11-libs-cairo.use
 RUN echo 'net-proxy/haproxy zlib -slz' > /etc/portage/package.use/net-proxy-haproxy.use
 RUN echo 'x11-libs/gdk-pixbuf jpeg' > /etc/portage/package.use/x11-libs-gdk-pixbuf.use
 RUN echo -e '*/* PYTHON_TARGETS: -* python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14\ndev-lang/python bluetooth' > /etc/portage/package.use/dev-lang-python.use
-RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} --jobs-tmpdir-require-free-gb=0 -q app-admin/sudo app-eselect/eselect-repository app-misc/jq app-portage/gentoolkit dev-util/pkgcheck dev-util/shellcheck-bin dev-vcs/git \
-    dev-libs/boost virtual/fortran dev-lang/lua x11-base/xorg-proto net-libs/nodejs app-eselect/eselect-rust dev-lang/rust-bin \ 
-    virtual/imagemagick-tools virtual/lapack virtual/cblas virtual/blas virtual/ttf-fonts virtual/libusb virtual/cron virtual/libudev media-video/ffmpeg \
+RUN touch /etc/portage/package.use/zzz.use
+RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} --jobs-tmpdir-require-free-gb=0 -q --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
+    dev-vcs/git dev-libs/boost virtual/fortran dev-lang/lua x11-base/xorg-proto net-libs/nodejs dev-lang/rust-bin \     
     acct-group/haproxy acct-group/mosquitto acct-group/openct acct-group/pcscd acct-user/haproxy acct-user/mosquitto acct-user/pcscd \
-    app-admin/logrotate app-arch/lz4 app-eselect/eselect-mpg123 app-misc/mosquitto \
+    app-admin/logrotate app-admin/sudo app-arch/lz4 app-eselect/eselect-mpg123 app-eselect/eselect-repository app-eselect/eselect-rust app-misc/jq app-misc/mosquitto app-portage/gentoolkit \
     dev-cpp/abseil-cpp dev-cpp/xsimd dev-db/mysql-connector-c dev-debug/gdb dev-lang/orc dev-lang/swig \
     dev-libs/cJSON dev-libs/darts dev-libs/double-conversion dev-libs/isa-l dev-libs/jemalloc dev-libs/libatomic_ops dev-libs/libfastjson dev-libs/liblinear dev-libs/libsodium dev-libs/libtomcrypt dev-libs/libtommath dev-libs/libyaml dev-libs/protobuf dev-libs/xerces-c dev-libs/yajl \
     dev-perl/Clone dev-perl/Devel-CheckLib dev-perl/Encode-Locale dev-perl/File-Listing dev-perl/HTML-Parser dev-perl/HTML-Tagset dev-perl/HTTP-Cookies dev-perl/HTTP-Date dev-perl/HTTP-Message dev-perl/HTTP-Negotiate dev-perl/IO-HTML dev-perl/IO-Socket-INET6 dev-perl/libwww-perl \
@@ -39,11 +39,12 @@ RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} --jobs-tmpdir-require-fre
     dev-python/uc-micro-py dev-python/ujson dev-python/ukkonen dev-python/unasync dev-python/unpaddedbase64 dev-python/untangle dev-python/uri-template dev-python/uritemplate dev-python/url-normalize dev-python/uv dev-python/uv-build dev-python/uvicorn \
     dev-python/validators dev-python/versioneer dev-python/virtualenv dev-python/voluptuous dev-python/watchdog dev-python/wcwidth dev-python/webcolors dev-python/webencodings dev-python/websocket-client dev-python/websockets dev-python/werkzeug dev-python/wrapt dev-python/wsproto \
     dev-python/xlsxwriter dev-python/xmlschema dev-python/xmltodict dev-python/x-wr-timezone dev-python/yarl dev-python/zeep dev-python/zeroconf dev-python/zipp dev-python/zlib-ng dev-python/zope-interface \
-    dev-util/google-perftools dev-util/maturin dev-util/ruff dev-vcs/pre-commit \
+    dev-util/google-perftools dev-util/maturin dev-util/ruff dev-vcs/pre-commit dev-util/pkgcheck dev-util/shellcheck-bin \
     media-libs/freetype media-gfx/graphviz media-gfx/zbar media-libs/alsa-lib media-libs/alsa-topology-conf media-libs/alsa-ucm-conf media-libs/flac media-libs/freeimage media-libs/gd media-libs/libogg media-libs/libpulse media-libs/libsndfile media-libs/libvorbis media-libs/mutagen media-libs/opus media-libs/qhull media-libs/speexdsp media-libs/webrtc-audio-processing \
     media-plugins/alsa-plugins media-sound/lame media-sound/mpg123-base media-sound/pulseaudio-daemon \
     net-libs/libasyncns net-libs/libpcap net-libs/llhttp net-misc/iperf net-misc/socat net-proxy/haproxy sec-keys/openpgp-keys-nmap sys-libs/libunwind sys-libs/zlib-ng virtual/perl-Compress-Raw-Bzip2 virtual/perl-Compress-Raw-Zlib virtual/perl-IO-Compress virtual/perl-MIME-Base64 virtual/perl-Time-Local \
-    x11-libs/libICE x11-libs/libSM x11-libs/libXfixes x11-libs/libXi x11-libs/libXtst x11-libs/pango
+    x11-libs/libICE x11-libs/libSM x11-libs/libXfixes x11-libs/libXi x11-libs/libXtst x11-libs/pango \
+    virtual/imagemagick-tools virtual/lapack virtual/cblas virtual/blas virtual/ttf-fonts virtual/libusb virtual/cron virtual/libudev media-video/ffmpeg
 RUN FEATURES='-usersandbox' emerge -tNDuq --jobs=${JOB_COUNT} --jobs-tmpdir-require-free-gb=0 @world
 # Cleanup
 RUN emerge -C sys-apps/man-pages virtual/man 
