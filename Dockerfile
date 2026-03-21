@@ -3,7 +3,6 @@ FROM ghcr.io/xavierforestier/gentoo-ci:main AS gentoo
 ENV JOB_COUNT=16
 # Switch to ~amd64 and build world
 RUN echo 'sys-apps/file -seccomp' > /etc/portage/package.use/sys-apps-file.use
-RUN echo 'net-libs/nodejs npm' > /etc/portage/package.use/net-libs-nodejs.use 
 RUN echo -e 'virtual/imagemagick-tools jpeg tiff\nmedia-gfx/imagemagick jpeg tiff' > /etc/portage/package.use/virtual-imagemagick-tools.use 
 RUN echo 'dev-python/pillow webp' > /etc/portage/package.use/dev-python-pillow.use 
 RUN echo 'x11-libs/cairo X' > /etc/portage/package.use/x11-libs-cairo.use
@@ -12,7 +11,6 @@ RUN echo 'x11-libs/gdk-pixbuf jpeg' > /etc/portage/package.use/x11-libs-gdk-pixb
 RUN echo -e '*/* PYTHON_TARGETS: -* python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14\ndev-lang/python bluetooth' > /etc/portage/package.use/dev-lang-python.use
 RUN touch /etc/portage/package.use/zzz.use
 RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} --jobs-tmpdir-require-free-gb=0 -q --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
-    dev-vcs/git dev-libs/boost virtual/fortran dev-lang/lua x11-base/xorg-proto net-libs/nodejs dev-lang/rust-bin \     
     acct-group/haproxy acct-group/mosquitto acct-group/openct acct-group/pcscd acct-user/haproxy acct-user/mosquitto acct-user/pcscd \
     app-admin/logrotate app-admin/sudo app-arch/lz4 app-eselect/eselect-mpg123 app-eselect/eselect-repository app-eselect/eselect-rust app-misc/jq app-misc/mosquitto app-portage/gentoolkit \
     dev-cpp/abseil-cpp dev-cpp/xsimd dev-db/mysql-connector-c dev-debug/gdb dev-lang/orc dev-lang/swig \
