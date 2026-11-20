@@ -4,4 +4,6 @@ This repository build a docker that includes most standard gentoo dependencies f
 
 Compiling virtual/home-assistant:full from a fresh stage3 gentoo takes more than 6 hours which is the limit of github actions.
 
+[![Create and publish a Docker image for CI](https://github.com/xavierforestier/gentoo-ci-ha/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/xavierforestier/gentoo-ci-ha/actions/workflows/docker-publish.yml)
+
 ## Provided packages
