@@ -31,7 +31,7 @@ jobs:
         for category in $(EIX_LIMIT=0 eix -I --format '<category>\n' | grep -e '^[^\[].*' | grep -v 'Found' | sort -u | grep -v 'acct-group' | grep -v 'acct-user' ); do
           description=$( cat "/var/db/repos/gentoo/${category}/metadata.xml" | xq '.catmetadata.longdescription[] | select( ."@lang" == "en" )."#text"' | sed 's/\\n/ /g' | sed 's/\\t/ /g' | sed 's/  / /g' | sed 's/  / /g' | sed 's/  / /g' | sed 's/"The .* category contains //g' | sed 's/\."$//g' )
           echo "### ${category}: ${description^}" >> README.md
-          EIX_LIMIT=0 NAMEVERSION="\\n   * <version> <use0>" eix -IC ${category} --format '* <category>/<name>: <description> <installedversions:NAMEVERSION>\n' >> README.md
+          EIX_LIMIT=0 NAMEVERSION="\\n   * <version> <use0>" eix -IC ${category} --format '* <name>: <description> <installedversions:NAMEVERSION>\n' >> README.md
         done        
         git config --local user.name "xavier.forestier"
         git config --local user.email "23277701+xavierforestier@users.noreply.github.com"
