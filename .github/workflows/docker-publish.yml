@@ -81,32 +81,10 @@ jobs:
         # This step uses the identity token to provision an ephemeral certificate
         # against the sigstore community Fulcio instance.
         run: echo "${TAGS}" | xargs -I {} cosign sign --yes {}@${DIGEST}
-        
+             
   readme:
   
-    name: Update README.md
-    runs-on: ubuntu-latest
+    uses: xavierforestier/gentoo-ci-ha/.github/workflows/update-readme.yml@master
     needs: build-and-push
-    container:
-      image: ghcr.io/xavierforestier/gentoo-ci-ha:main
-      options: --privileged
-    steps:
-    # synchronys my own git
-    - name: Checkout code
-      uses: actions/checkout@v7
-    - name: Update README
-      run: |
-        git config --global --add safe.directory /__w/gentoo-ci-ha/gentoo-ci-ha
-        git fetch
-        git switch main
-        emerge -q eix
-        eix-update
-        cp README.md .header
-        head .header -n `grep '## Provided packages' .header -n | cut -d: -f1` > README.md
-        rm .header
-        EIX_LIMIT=0 NAMEVERSION="\\n   * <version> <use0>" eix -I --format '* <category>/<name>: <description> <installedversions:NAMEVERSION>\n' | grep -v 'act-group/' | grep -v 'acct-user/' >> README.md
-        git config --local user.name "xavier.forestier"
-        git config --local user.email "23277701+xavierforestier@users.noreply.github.com"
-        git add README.md
-        git commit -m "[CI]Update status" || true
-        git push
+    secrets: inherit
+    name: Update README.md
