@@ -63,7 +63,7 @@ Found 9 matches
 * gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
    * 2.5.24-r2 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
 * gpgme: GnuPG Made Easy is a library for making GnuPG easier to use 
-   * 2.2.0 -common-lisp -static-libs -test -verify-sig
+   * 2.3.1 -common-lisp -static-libs -test -verify-sig
 * libb2: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp 
    * 0.98.1-r3 openmp -native-cflags -static-libs
 * libmd: Message Digest functions from BSD systems 
@@ -92,13 +92,11 @@ Found 6 matches
    * 0.1-r1 
 * eselect-pinentry: Manage /usr/bin/pinentry symlink 
    * 0.7.5 
-* eselect-python: Eselect module for management of multiple Python versions 
-   * 20200719 
 * eselect-repository: Manage repos.conf via eselect 
    * 15 git -mercurial -test
 * eselect-rust: Eselect module for management of multiple Rust versions 
    * 20210703 
-Found 9 matches
+Found 8 matches
 ### app-i18n: Internationalisation-related packages
 * gnulib-l10n: Localization for gnulib 
    * 20241231 
@@ -290,7 +288,7 @@ Found 9 matches
 * libical: Implementation of basic iCAL protocols 
    * 3.0.20-r2 glib introspection -doc -examples -static-libs -test -vala
 * libksba: X.509 and CMS (PKCS#7) library 
-   * 1.8.1 -static-libs -verify-sig
+   * 1.9.1 -static-libs -verify-sig
 * liblinear: A Library for Large Linear Classification 
    * 246 
 * libltdl: A shared library tool for developers 
@@ -496,7 +494,7 @@ Found 55 matches
 * alabaster: A configurable sidebar-enabled Sphinx theme 
    * 1.0.0 
 * annotated-doc: Document parameters, variables inline, with Annotated 
-   * 0.0.6 -test
+   * 0.0.7 -test
 * annotated-types: Reusable constraint types to use with typing.Annotated 
    * 0.8.0 -test
 * anyascii: Unicode to ASCII transliteration 
@@ -554,11 +552,11 @@ Found 55 matches
 * build: A simple, correct PEP517 package builder 
    * 1.6.1 -test -test-rust
 * cachebox: The fastest memoizing and caching Python library written in Rust 
-   * 6.2.10 -debug -test -verify-provenance
+   * 6.2.11 -debug -test -verify-provenance
 * cachecontrol: httplib2 caching for requests 
    * 0.15.0 -test -verify-provenance
 * cachetools: Extensible memoizing collections and decorators 
-   * 8.0.1 -test
+   * 8.0.2 -test
 * cattrs: Composable complex class support for attrs and dataclasses 
    * 26.2.1 test-rust -test
 * cbor2: CBOR (de)serializer with extensive tag support 
@@ -582,7 +580,7 @@ Found 55 matches
 * colour: Python color representations manipulation library 
    * 0.1.5-r1 -test
 * configargparse: Drop-in replacement for argparse supporting config files and env variables 
-   * 1.10.1 -test -verify-provenance
+   * 1.10.2 -test -verify-provenance
 * configobj: Simple config file reader and writer 
    * 5.0.9 -test
 * constantly: Symbolic constants in Python 
@@ -606,7 +604,7 @@ Found 55 matches
 * decorator: Simplifies the usage of decorators for the average programmer 
    * 5.3.1 
 * deepdiff: A library for comparing dictionaries, iterables, strings and other objects 
-   * 9.1.0 -test
+   * 9.2.1 -test
 * deepmerge: Tools to handle merging of nested data structures in python 
    * 4.0.0 -test
 * defusedxml: XML bomb protection for Python stdlib modules, an xml serialiser 
@@ -650,7 +648,7 @@ Found 55 matches
 * events: Bringing the elegance of C# EventHandler to Python 
    * 0.5 
 * exceptiongroup: Backport of PEP 654 (exception groups) 
-   * 1.3.1 -test -verify-provenance
+   * 1.3.2 -test -verify-provenance
 * expandvars: Expand system variables Unix style 
    * 1.1.2 -test
 * fastjsonschema: Fast JSON schema validator for Python 
@@ -660,7 +658,7 @@ Found 55 matches
 * feedparser-sgmllib: sgmllib from Python 2.7 for feedparser use 
    * 2.1.0 -test -verify-provenance
 * filelock: A platform independent file lock for Python 
-   * 4.2.10 -test -verify-provenance
+   * 4.2.12 -test -verify-provenance
 * findpython: A utility to find python versions on your system 
    * 0.9.0 -test -verify-provenance
 * flake8: A wrapper around PyFlakes, pep8 & mccabe 
@@ -822,7 +820,7 @@ Found 55 matches
 * lazy-importer: A context manager for portable, opt-in lazy imports 
    * 0.1.0 -test -verify-provenance
 * librt: Mypyc runtime library 
-   * 0.16.0 -debug -test -verify-provenance
+   * 0.17.0 -debug -test -verify-provenance
 * linkify-it-py: Links recognition library with full unicode support 
    * 2.2.0 -test -verify-provenance
 * logfury: Boilerplate library for logging method calls 
@@ -860,7 +858,7 @@ Found 55 matches
 * mypy-extensions: Type system extensions for programs checked with mypy 
    * 1.2.0 -test
 * mysqlclient: Python interface to MySQL 
-   * 2.3.1 -debug -doc -test -verify-provenance
+   * 2.3.2 -debug -doc -test -verify-provenance
 * nanobind: Tiny and efficient C++/Python bindings 
    * 3.1.0 -test
 * netaddr: Network address representation and manipulation library 
@@ -928,7 +926,7 @@ Found 55 matches
 * pkginfo: Provides an API for querying the distutils metadata written in a PKG-INFO file 
    * 2.0 -doc -test -verify-provenance
 * platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.14.5 -test -verify-provenance
+   * 4.14.7 -test -verify-provenance
 * pluggy: Plugin and hook calling mechanisms for Python 
    * 1.7.0 -test -verify-provenance
 * ply: Python Lex-Yacc library 
@@ -982,7 +980,7 @@ Found 55 matches
 * pycryptodome: A self-contained cryptographic library for Python 
    * 4.5.0 -debug -test
 * pydantic: Data parsing and validation using Python type hints 
-   * 2.14.3 -debug -test -verify-provenance
+   * 2.14.4 -debug -test -verify-provenance
 * pydantic-settings: Settings management using Pydantic 
    * 2.16.3 -test -verify-provenance
 * pyflakes: Passive checker for Python programs 
@@ -1000,7 +998,7 @@ Found 55 matches
 * pyopenssl: Python interface to the OpenSSL library 
    * 26.4.0 -doc -test -verify-provenance
 * pyotp: PyOTP is a Python library for generating and verifying one-time passwords 
-   * 2.12.0 -verify-provenance
+   * 2.12.1 -verify-provenance
 * pyparsing: Easy-to-use Python module for text parsing 
    * 3.3.3 -examples -test
 * pypng: Pure Python PNG image encoder/decoder 
@@ -1008,7 +1006,7 @@ Found 55 matches
 * pyprof2calltree: Convert python profile data to kcachegrind calltree form 
    * 1.4.5-r1 
 * pyproject-api: API to interact with the python pyproject.toml based projects 
-   * 1.12.5 -test -verify-provenance
+   * 1.12.6 -test -verify-provenance
 * pyproject-hooks: Wrappers to build Python packages using PEP 517 hooks 
    * 1.3.3 -test -verify-provenance
 * pyproject-metadata: PEP 621 metadata parsing 
@@ -1046,7 +1044,7 @@ Found 55 matches
 * python-dateutil: Extensions to the standard Python datetime module 
    * 4.0.0 -test -verify-provenance
 * python-discovery: Python interpreter discovery 
-   * 1.9.5 -test -verify-provenance
+   * 1.9.6 -test -verify-provenance
 * python-dotenv: Manage .env files 
    * 1.2.4 -test -verify-provenance
 * python-jose: A JavaScript Object Signing and Encryption (JOSE) implementation in Python 
@@ -1060,7 +1058,7 @@ Found 55 matches
 * python-slugify: A Python Slugify application that handles Unicode 
    * 9.1.3 -test
 * python-socks: SOCKS4, SOCKS5, HTTP tunneling functionality for Python 
-   * 3.2.1 -test
+   * 3.2.2 -test
 * pythran: Ahead of Time compiler for numeric kernels 
    * 0.19.0 -test
 * pytokens: A fast, spec compliant Python 3.13+ tokenizer that runs on older Pythons 
@@ -1084,7 +1082,7 @@ Found 55 matches
 * referencing: Cross-specification JSON referencing (JSON Schema, OpenAPI...) 
    * 0.37.0 -test -verify-provenance
 * regex: Alternative regular expression module to replace re 
-   * 2026.11.18 -debug -doc
+   * 2026.11.19 -debug -doc
 * requests: HTTP library for human beings 
    * 2.34.2 test-rust -socks5 -test -verify-provenance
 * requests-file: File transport adapter for Requests 
@@ -1168,7 +1166,7 @@ Found 55 matches
 * sortedcontainers: Python library to sort collections and containers 
    * 2.4.0-r1 -test
 * soupsieve: A modern CSS selector implementation for BeautifulSoup 
-   * 4.1.1 -test
+   * 4.1.2 -test
 * sphinx: Python documentation generator 
    * 9.2.0 -doc -latex -test
 * sphinx-basic-ng: A modern skeleton for Sphinx themes 
@@ -1224,7 +1222,7 @@ Found 55 matches
 * tomlkit: Style preserving TOML library 
    * 0.15.2 -test
 * tox: virtualenv-based automation of test activities 
-   * 4.67.13 -test -verify-provenance
+   * 4.67.15 -test -verify-provenance
 * tqdm: Add a progress meter to your loops in a second 
    * 4.70.1 -examples -test -verify-provenance
 * tree-sitter: Python bindings to the Tree-sitter parsing library 
@@ -1240,9 +1238,9 @@ Found 55 matches
 * twisted: An asynchronous networking framework written in Python 
    * 26.10.0 ssl -conch -http2 -serial -test -verify-provenance -websockets
 * typeguard: Run-time type checker for Python 
-   * 4.6.0 -test -verify-provenance
+   * 4.6.1 -test -verify-provenance
 * typer: Build great CLIs. Easy to code. Based on Python type hints 
-   * 0.29.1 -cli -test
+   * 0.29.2 -cli -test
 * typing-extensions: Backported and Experimental Type Hints for Python 3.7+ 
    * 4.16.0 -test -verify-provenance
 * typing-inspection: Runtime typing introspection tools 
@@ -1268,7 +1266,7 @@ Found 55 matches
 * uritemplate: Python implementation of RFC6570, URI Template 
    * 4.2.0 -test -verify-provenance
 * url-normalize: URL normalization for Python 
-   * 3.1.0 -test
+   * 4.0.0 -test
 * urllib3: HTTP library with thread-safe connection pooling, file post, and more 
    * 2.8.0 -brotli -http2 -test -verify-provenance -zstd
 * uv: A Python package installer and resolver, written in Rust 
@@ -1286,7 +1284,7 @@ Found 55 matches
 * versioneer: Easy VCS-based management of project version strings 
    * 0.29-r1 -test
 * virtualenv: Virtual Python Environment builder 
-   * 21.15.6 -test -verify-provenance
+   * 21.15.9 -test -verify-provenance
 * voluptuous: A Python data validation library 
    * 0.16.0 -test
 * watchdog: Python API and shell utilities to monitor file system events 
@@ -1312,7 +1310,7 @@ Found 55 matches
 * x-wr-timezone: Convert calendars using X-WR-TIMEZONE to standard ones 
    * 2.0.1 -test
 * xlsxwriter: Python module for creating Excel XLSX files 
-   * 3.3.1 -test
+   * 3.3.2 -test
 * xmlschema: An XML Schema validator and decoder 
    * 4.3.2 -test
 * xmltodict: Makes working with XML feel like you are working with JSON 
@@ -1352,7 +1350,7 @@ Found 431 matches
 * re2c: Tool for generating C-based recognizers from regular expressions 
    * 3.1 -debug -test
 * ruff: An extremely fast Python linter, written in Rust 
-   * 0.17.5 -debug
+   * 0.17.6 -debug
 * shellcheck-bin: Shell script analysis tool (binary package) 
    * 0.11.0 
 Found 12 matches
@@ -1374,7 +1372,7 @@ Found 2 matches
 * graphviz: Open Source Graph Visualization Software 
    * 16.1.0 cairo nls -X -aalib -devil -doc -examples -gtk2 -gts -guile -lasi -pdf -perl -postscript -python -qt6 -ruby -svg -tcl -webp
 * imagemagick: A collection of tools and libraries for many image formats 
-   * 7.1.2.35 bzip2 cxx jpeg openmp png tiff zlib -X -corefonts -djvu -fftw -fontconfig -fpx -graphviz -hardened -hdri -heif -jbig -jpeg2k -jpegxl -lcms -lqr -lzma -opencl -openexr -pango -perl -postscript -q8 -q32 -raw -static-libs -svg -test -truetype -verify-sig -webp -wmf -xml -zip
+   * 7.1.2.36 bzip2 cxx jpeg openmp png tiff zlib -X -corefonts -djvu -fftw -fontconfig -fpx -graphviz -hardened -hdri -heif -jbig -jpeg2k -jpegxl -lcms -lqr -lzma -opencl -openexr -pango -perl -postscript -q8 -q32 -raw -static-libs -svg -test -truetype -verify-sig -webp -wmf -xml -zip
 * zbar: Library and tools for reading barcodes from images or video 
    * 0.23.93-r3 imagemagick nls threads -X -dbus -graphicsmagick -gtk -introspection -java -jpeg -python -test -v4l -xv
 Found 4 matches
@@ -1442,7 +1440,7 @@ Found 24 matches
 Found 3 matches
 ### media-video: Video-related applications
 * ffmpeg: Complete solution to record/convert/stream audio and video 
-   * 9.0.2-r1 bzip2 dav1d drm fontconfig gnutls gpl libass truetype xml zlib -X -alsa -amf -amr -amrenc -appkit -bluray -bs2b -cairo -cdio -chromaprint -chromium -codec2 -cuda-clang -doc -dvd -fdk -flite -frei0r -fribidi -gcrypt -gme -gmp -gsm -iec61883 -ieee1394 -jack -jpeg2k -jpegxl -kvazaar -ladspa -lame -lcms -libaom -libaribb24 -libcaca -libilbc -liblc3 -libplacebo -librtmp -libsoxr -lv2 -lzma -modplug -nvenc -ocr -openal -opencl -opencolorio -opengl -openh264 -openmpt -openssl -opus -pulseaudio -qrcode -qsv -quirc -rabbitmq -rav1e -rist -rubberband -samba -sdl -snappy -sndio -sofa -speex -srt -ssh -svg -svt-av1 -theora -twolame -v4l -vaapi -vdpau -verify-sig -vidstab -vmaf -vorbis -vpx -vulkan -webp -x264 -x265 -xvid -zeromq -zimg -zvbi
+   * 9.1 bzip2 dav1d drm fontconfig gnutls gpl libass truetype xml zlib -X -alsa -amf -amr -amrenc -appkit -bluray -bs2b -cairo -cdio -chromaprint -chromium -codec2 -cuda-clang -curl -doc -dvd -fdk -flite -frei0r -fribidi -gcrypt -gme -gmp -gsm -iec61883 -ieee1394 -jack -jpeg2k -jpegxl -kvazaar -ladspa -lame -lcms -libaom -libaribb24 -libcaca -libilbc -liblc3 -libplacebo -librtmp -libsoxr -lv2 -lzma -modplug -nvenc -ocr -openal -opencl -opencolorio -openh264 -openmpt -openssl -opus -pulseaudio -qrcode -qsv -quirc -rabbitmq -rav1e -rist -rubberband -samba -sdl -snappy -sndio -sofa -speex -srt -ssh -svg -svt-av1 -theora -twolame -v4l -vaapi -vdpau -verify-sig -vidstab -vmaf -vorbis -vpx -vulkan -webp -x264 -x265 -xvid -zeromq -zimg -zvbi
 ### net-dns: DNS (Domain Name Service) related software
 * c-ares: C library that resolves names asynchronously 
    * 1.34.9 -static-libs -test -verify-sig
@@ -1454,7 +1452,7 @@ Found 2 matches
    * 1.8.13 -conntrack -netlink -nftables -pcap -static-libs -test -verify-sig
 ### net-libs: Libraries that are network-related
 * gnutls: Secure communications library implementing the SSL, TLS and DTLS protocols 
-   * 3.8.13 cxx idn nls openssl post-quantum tls-heartbeat zlib -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -systemtap -test -test-full -tools -verify-sig -zstd
+   * 3.8.14 cxx idn nls openssl post-quantum tls-heartbeat zlib -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -systemtap -test -test-full -tools -verify-sig -zstd
 * libasyncns: C library for executing name service queries asynchronously 
    * 0.8-r5 -debug -doc
 * libmicrohttpd: Small C library to run an HTTP server as part of another application 
@@ -1478,7 +1476,7 @@ Found 2 matches
 * ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.26.0 openssl ssl -gnutls -verify-sig
 * nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 26.13.1-r1 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -temporal -test
+   * 24.22.3-r1 icu inspector npm snapshot ssl system-icu system-ssl -corepack -debug -doc -lto -pax-kernel -test
 Found 13 matches
 ### net-mail: Various email-related utilities
 * mailbase: MTA layout package 
@@ -1505,7 +1503,7 @@ Found 13 matches
 Found 9 matches
 ### net-proxy: Network proxy software
 * haproxy: A TCP/HTTP reverse proxy for high availability environments 
-   * 3.4.7 crypt doc net_ns pcre ssl threads zlib -51degrees -ech -examples -lua -pcre-jit -prometheus-exporter -quic -selinux -slz -systemd -test -tools -wurfl
+   * 3.4.8 crypt doc net_ns pcre ssl threads zlib -51degrees -ech -examples -lua -pcre-jit -prometheus-exporter -quic -selinux -slz -systemd -test -tools -wurfl
 ### net-wireless: Wireless networking software and utilities
 * bluez: Bluetooth Tools and System Daemons for Linux 
    * 5.88 mesh obex readline udev -btpclient -cups -debug -deprecated -doc -experimental -extra-tools -man -midi -selinux -systemd -test -test-programs
