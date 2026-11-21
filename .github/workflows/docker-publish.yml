@@ -84,7 +84,7 @@ jobs:
              
   readme:
   
-    uses: xavierforestier/gentoo-ci-ha/.github/workflows/update-readme.yml@master
+    uses: xavierforestier/gentoo-ci-ha/.github/workflows/update-readme.yml@main
     needs: build-and-push
     secrets: inherit
     name: Update README.md
