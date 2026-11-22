@@ -232,7 +232,7 @@ Found 2 matches
 * python-exec-conf: Configuration file for dev-lang/python-exec 
    * 2.4.6 
 * rust-bin: Systems programming language from Mozilla 
-   * 1.99.0 clippy rustfmt -big-endian -doc -prefix -rust-analyzer -rust-src -rustc-dev -verify-sig
+   * 1.100.0 clippy rustfmt -big-endian -doc -prefix -rust-analyzer -rust-src -rustc-dev -verify-sig
 * swig: Simplified Wrapper and Interface Generator 
    * 4.4.1 pcre -ccache -doc -test
 Found 9 matches
@@ -588,7 +588,7 @@ Found 55 matches
 * construct: A powerful declarative parser for binary data 
    * 2.10.70 -test
 * coverage: Code coverage measurement for Python 
-   * 7.17.3 native-extensions -debug -test -verify-provenance
+   * 7.17.4 native-extensions -debug -test -verify-provenance
 * crashtest: Python library that makes exceptions handling and inspection easier 
    * 0.4.1 -test
 * crcmod: Python CRC Generator module 
@@ -602,7 +602,7 @@ Found 55 matches
 * cython: A Python to C compiler 
    * 3.3.1 -debug -test -test-full
 * decorator: Simplifies the usage of decorators for the average programmer 
-   * 5.3.1 
+   * 5.3.2 
 * deepdiff: A library for comparing dictionaries, iterables, strings and other objects 
    * 9.2.1 -test
 * deepmerge: Tools to handle merging of nested data structures in python 
@@ -696,7 +696,7 @@ Found 55 matches
 * google-api-core: Core Library for Google Client Libraries 
    * 2.44.0 -grpc -test -verify-provenance
 * google-auth: Google Authentication Library 
-   * 2.62.2 -test -verify-provenance
+   * 2.63.0 -test -verify-provenance
 * google-auth-httplib2: httplib2 Transport for Google Auth 
    * 0.4.4 -test -verify-provenance
 * google-auth-oauthlib: Google Authentication Library 
@@ -740,7 +740,7 @@ Found 55 matches
 * hyperlink: A featureful, correct URL for Python 
    * 21.0.0-r1 -test
 * icalendar: RFC 5545 compatible parser and generator of iCalendar files 
-   * 7.3.0 -test
+   * 7.3.2 -test -verify-provenance
 * id: A tool for generating OIDC identities 
    * 1.6.1 -test
 * identify: File identification library for Python 
@@ -926,13 +926,13 @@ Found 55 matches
 * pkginfo: Provides an API for querying the distutils metadata written in a PKG-INFO file 
    * 2.0 -doc -test -verify-provenance
 * platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.14.7 -test -verify-provenance
+   * 4.14.8 -test -verify-provenance
 * pluggy: Plugin and hook calling mechanisms for Python 
    * 1.7.0 -test -verify-provenance
 * ply: Python Lex-Yacc library 
    * 3.11-r2 -examples
 * poetry: A frontend for poetry - a python dependency management and packaging tool 
-   * 2.5.1 -test -verify-provenance
+   * 2.5.2 -test -verify-provenance
 * poetry-core: Poetry PEP 517 Build Backend 
    * 2.5.0 -test -verify-provenance
 * pooch: Manage your Python library's sample data files 
@@ -1066,7 +1066,7 @@ Found 55 matches
 * pytz: World timezone definitions for Python 
    * 2026.6 -test -verify-provenance
 * pyyaml: YAML parser and emitter for Python 
-   * 6.0.3 -debug -examples -test
+   * 6.0.4 -debug -examples -test
 * pyzbar: Read one-dimensional barcodes and QR codes from Python 
    * 0.1.9 -test
 * rapidfuzz: Rapid fuzzy string matching in Python using various string metrics 
@@ -1166,7 +1166,7 @@ Found 55 matches
 * sortedcontainers: Python library to sort collections and containers 
    * 2.4.0-r1 -test
 * soupsieve: A modern CSS selector implementation for BeautifulSoup 
-   * 4.1.2 -test
+   * 4.1.3 -test
 * sphinx: Python documentation generator 
    * 9.2.0 -doc -latex -test
 * sphinx-basic-ng: A modern skeleton for Sphinx themes 
@@ -1202,7 +1202,7 @@ Found 55 matches
 * svgwrite: Python Package to write SVG files 
    * 1.4.3 -test
 * syrupy: The sweeter pytest snapshot plugin 
-   * 7.0.2 -test -verify-provenance
+   * 7.0.3 -test -verify-provenance
 * tabulate: Pretty-print tabular data 
    * 0.10.0 -test
 * tempora: Objects and routines pertaining to date and time 
@@ -1284,11 +1284,11 @@ Found 55 matches
 * versioneer: Easy VCS-based management of project version strings 
    * 0.29-r1 -test
 * virtualenv: Virtual Python Environment builder 
-   * 21.15.9 -test -verify-provenance
+   * 21.15.11 -test -verify-provenance
 * voluptuous: A Python data validation library 
    * 0.16.0 -test
 * watchdog: Python API and shell utilities to monitor file system events 
-   * 7.0.0 -test
+   * 7.1.1 -test
 * wcwidth: Measures number of Terminal column cells of wide-character codes 
    * 0.9.4 native-extensions -debug -test
 * webcolors: Color names and value formats defined by the HTML and CSS specifications 
@@ -1310,7 +1310,7 @@ Found 55 matches
 * x-wr-timezone: Convert calendars using X-WR-TIMEZONE to standard ones 
    * 2.0.1 -test
 * xlsxwriter: Python module for creating Excel XLSX files 
-   * 3.3.2 -test
+   * 3.3.3 -test
 * xmlschema: An XML Schema validator and decoder 
    * 4.3.2 -test
 * xmltodict: Makes working with XML feel like you are working with JSON 
