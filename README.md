@@ -696,7 +696,7 @@ Found 55 matches
 * google-api-core: Core Library for Google Client Libraries 
    * 2.44.0 -grpc -test -verify-provenance
 * google-auth: Google Authentication Library 
-   * 2.63.0 -test -verify-provenance
+   * 2.63.1 -test -verify-provenance
 * google-auth-httplib2: httplib2 Transport for Google Auth 
    * 0.4.4 -test -verify-provenance
 * google-auth-oauthlib: Google Authentication Library 
@@ -840,7 +840,7 @@ Found 55 matches
 * mdurl: Markdown URL utilities 
    * 0.1.2 -test
 * mechanize: Stateful programmatic web browsing in Python 
-   * 0.4.10 -test
+   * 0.4.11 -test
 * meson-python: Meson PEP 517 Python build backend 
    * 0.22.1 -test
 * mock: Rolling backport of unittest.mock for all Pythons 
@@ -1284,13 +1284,13 @@ Found 55 matches
 * versioneer: Easy VCS-based management of project version strings 
    * 0.29-r1 -test
 * virtualenv: Virtual Python Environment builder 
-   * 21.15.11 -test -verify-provenance
+   * 21.15.12 -test -verify-provenance
 * voluptuous: A Python data validation library 
    * 0.16.0 -test
 * watchdog: Python API and shell utilities to monitor file system events 
    * 7.1.1 -test
 * wcwidth: Measures number of Terminal column cells of wide-character codes 
-   * 0.9.4 native-extensions -debug -test
+   * 0.9.5 native-extensions -debug -test -verify-provenance
 * webcolors: Color names and value formats defined by the HTML and CSS specifications 
    * 25.10.0 -test
 * webencodings: Character encoding aliases for legacy web content 
