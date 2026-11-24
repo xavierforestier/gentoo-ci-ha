@@ -57,7 +57,7 @@ Found 9 matches
 * xz-utils: Utils for managing LZMA compressed files 
    * 5.8.4 extra-filters nls -doc -pgo -static-libs -verify-sig
 * zstd: zstd fast compression library 
-   * 1.5.7-r1 lzma zlib -lz4 -static-libs -test -verify-sig
+   * 1.6.0 lzma zlib -lz4 -static-libs -test -verify-sig
 Found 9 matches
 ### app-crypt: Cryptographic (encryption, decryption, steganography and signing) software
 * gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
@@ -250,7 +250,7 @@ Found 9 matches
 * ell: Embedded Linux Library provides core, low-level functionality for system daemons 
    * 0.83 -pie -test
 * expat: Stream-oriented XML parser library 
-   * 2.10.0 unicode -examples -static-libs -test
+   * 2.11.0 unicode -examples -static-libs -test
 * fribidi: A free implementation of the unicode bidirectional algorithm 
    * 1.0.16 -doc -test
 * glib: The GLib library of C routines 
@@ -506,7 +506,7 @@ Found 55 matches
 * appdirs: Module for determining appropriate platform-specific dirs 
    * 1.4.4-r3 
 * argcomplete: Bash tab completion for argparse 
-   * 3.7.2 -test -verify-provenance
+   * 3.8.0 -test -verify-provenance
 * arrow: Better dates and times for Python 
    * 1.4.0 -test
 * asgiref: ASGI utilities (successor to WSGI) 
@@ -568,7 +568,7 @@ Found 55 matches
 * cfgv: Validate configuration and produce human-readable error messages 
    * 3.5.0 -test
 * charset-normalizer: The Real First Universal Charset Detector 
-   * 3.5.2 -debug -native-extensions -test -verify-provenance
+   * 3.5.3 -debug -native-extensions -test -verify-provenance
 * cleo: Python tool for building testable command-line interfaces 
    * 2.1.0 -test
 * click: A Python package for creating beautiful command line interfaces 
@@ -910,7 +910,7 @@ Found 55 matches
 * pbr: Inject some useful and sensible default behaviors into setuptools 
    * 7.1.3 -test
 * pbs-installer: Installer for Python Build Standalone 
-   * 2026.10.25 -test -verify-provenance
+   * 2026.11.10 -test -verify-provenance
 * pdm-backend: A PEP 517 backend for PDM that supports PEP 621 metadata 
    * 2.5.0 -test
 * peewee: Small Python ORM 
@@ -978,7 +978,7 @@ Found 55 matches
 * pycparser: C parser and AST generator written in Python 
    * 3.12 -test
 * pycryptodome: A self-contained cryptographic library for Python 
-   * 4.5.0 -debug -test
+   * 4.6.0 -debug -test
 * pydantic: Data parsing and validation using Python type hints 
    * 2.14.4 -debug -test -verify-provenance
 * pydantic-settings: Settings management using Pydantic 
@@ -1142,7 +1142,7 @@ Found 55 matches
 * shellingham: Tool to Detect Surrounding Shell 
    * 1.5.4 -test
 * sigstore: A tool for signing Python package distributions 
-   * 4.5.1 -test
+   * 4.6.0 -test
 * sigstore-models: Pydantic based models for Sigstore's protobuf specifications 
    * 0.0.6 -test
 * sigstore-rekor-types: Python models for Rekor's API types 
@@ -1310,7 +1310,7 @@ Found 55 matches
 * x-wr-timezone: Convert calendars using X-WR-TIMEZONE to standard ones 
    * 2.0.1 -test
 * xlsxwriter: Python module for creating Excel XLSX files 
-   * 3.3.3 -test
+   * 3.3.4 -test
 * xmlschema: An XML Schema validator and decoder 
    * 4.3.2 -test
 * xmltodict: Makes working with XML feel like you are working with JSON 
@@ -1476,7 +1476,7 @@ Found 2 matches
 * ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.26.0 openssl ssl -gnutls -verify-sig
 * nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 24.22.3-r1 icu inspector npm snapshot ssl system-icu system-ssl -corepack -debug -doc -lto -pax-kernel -test
+   * 24.22.3-r2 icu inspector npm snapshot ssl system-icu system-ssl -corepack -debug -doc -lto -pax-kernel -test
 Found 13 matches
 ### net-mail: Various email-related utilities
 * mailbase: MTA layout package 
@@ -1590,7 +1590,7 @@ Found 2 matches
 * sed: Super-useful stream editor 
    * 4.10-r1 acl nls xattr -selinux -static -test-full -verify-sig
 * shadow: Utilities to deal with user accounts 
-   * 4.20.2 acl nls pam -audit -selinux -skey -split-usr -su -systemd -test -verify-sig
+   * 4.20.4 acl nls pam -audit -selinux -skey -split-usr -su -systemd -test -verify-sig
 * systemd-utils: Utilities split out from systemd for OpenRC users 
    * 262 acl kmod sysctl tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
 * sysvinit: /sbin/init - parent of all processes 
