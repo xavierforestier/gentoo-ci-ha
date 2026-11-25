@@ -338,7 +338,7 @@ Found 9 matches
 * protobuf: Google's Protocol Buffers - Extensible mechanism for serializing structured data 
    * 34.2 libprotoc libupb protobuf protoc zlib -conformance -debug -emacs -examples -test
 * simdjson: SIMD accelerated C++ JSON library 
-   * 5.1.1 all-impls -nan -test -tools
+   * 5.3.0 all-impls -nan -test -tools -trailing-commas
 * sleef: Implements vectorized versions of C standard math functions 
    * 3.9.0 -test
 * tree-sitter: Tree-sitter is a parser generator tool and an incremental parsing library 
@@ -588,7 +588,7 @@ Found 55 matches
 * construct: A powerful declarative parser for binary data 
    * 2.10.70 -test
 * coverage: Code coverage measurement for Python 
-   * 7.17.4 native-extensions -debug -test -verify-provenance
+   * 7.17.5 native-extensions -debug -test -verify-provenance
 * crashtest: Python library that makes exceptions handling and inspection easier 
    * 0.4.1 -test
 * crcmod: Python CRC Generator module 
@@ -890,7 +890,7 @@ Found 55 matches
 * orjson: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy 
    * 3.13.0 -debug -test -verify-provenance
 * packaging: Core utilities for Python packages 
-   * 26.3 -test -verify-provenance
+   * 26.4 -test -verify-provenance
 * paho-mqtt: MQTT version 5.0/3.1.1 client class 
    * 2.2.0 -test
 * pandas: Powerful data structures for data analysis and statistics 
@@ -910,7 +910,7 @@ Found 55 matches
 * pbr: Inject some useful and sensible default behaviors into setuptools 
    * 7.1.3 -test
 * pbs-installer: Installer for Python Build Standalone 
-   * 2026.11.10 -test -verify-provenance
+   * 2026.11.23 -test -verify-provenance
 * pdm-backend: A PEP 517 backend for PDM that supports PEP 621 metadata 
    * 2.5.0 -test
 * peewee: Small Python ORM 
@@ -1078,11 +1078,11 @@ Found 55 matches
 * recurring-ical-events: Repeat ICalendar events by RRULE, RDATE and EXDATE 
    * 3.8.2 -test
 * redis: Python client for Redis key-value store 
-   * 8.1.0 -test
+   * 8.2.0 -test
 * referencing: Cross-specification JSON referencing (JSON Schema, OpenAPI...) 
    * 0.37.0 -test -verify-provenance
 * regex: Alternative regular expression module to replace re 
-   * 2026.11.19 -debug -doc
+   * 2026.11.23 -debug -doc
 * requests: HTTP library for human beings 
    * 2.34.2 test-rust -socks5 -test -verify-provenance
 * requests-file: File transport adapter for Requests 
