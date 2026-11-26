@@ -530,7 +530,7 @@ Found 55 matches
 * automat: Self-service finite-state machines for the programmer on the go 
    * 25.4.16 -examples -test
 * babel: Collection of tools for internationalizing Python applications 
-   * 2.18.0 -doc -test -verify-provenance
+   * 2.19.0 -doc -test -verify-provenance
 * bcrypt: Modern password hashing for software and servers 
    * 5.0.0 -debug -test -verify-provenance
 * beautifulsoup4: Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree 
@@ -626,7 +626,7 @@ Found 55 matches
 * docutils: Python Documentation Utilities (reference reStructuredText impl.) 
    * 0.23 
 * dulwich: Pure-Python implementation of the Git file formats and protocols 
-   * 1.2.21 native-extensions -debug -doc -examples -test -verify-provenance
+   * 1.2.22 native-extensions -debug -doc -examples -test -verify-provenance
 * dunamai: Dynamic version generation 
    * 1.26.1 -test
 * ecdsa: ECDSA cryptographic signature library in pure Python 
@@ -706,9 +706,9 @@ Found 55 matches
 * gpep517: A backend script to aid installing Python packages in Gentoo 
    * 23 -test
 * grpcio: HTTP/2-based RPC framework 
-   * 1.85.3 -debug -test
+   * 1.85.4 -debug -test
 * grpcio-status: Reference package for GRPC Python status proto mapping 
-   * 1.85.3 -test
+   * 1.85.4 -test
 * h11: A pure-Python implementation of HTTP/1.1 inspired by hyper-h2 
    * 0.16.0 -test
 * h2: HTTP/2 State-Machine based protocol implementation 
@@ -734,7 +734,7 @@ Found 55 matches
 * httpx2: The next generation HTTP client (Pydantic fork) 
    * 2.16.2 -cli -test
 * huawei-lte-api: API For huawei LAN/WAN LTE Modems 
-   * 2.0.1 -test
+   * 3.0.0 -test
 * hyperframe: HTTP/2 framing layer for Python 
    * 6.1.0 -test
 * hyperlink: A featureful, correct URL for Python 
@@ -910,7 +910,7 @@ Found 55 matches
 * pbr: Inject some useful and sensible default behaviors into setuptools 
    * 7.1.3 -test
 * pbs-installer: Installer for Python Build Standalone 
-   * 2026.11.23 -test -verify-provenance
+   * 2026.11.24 -test -verify-provenance
 * pdm-backend: A PEP 517 backend for PDM that supports PEP 621 metadata 
    * 2.5.0 -test
 * peewee: Small Python ORM 
@@ -1024,7 +1024,7 @@ Found 55 matches
 * pysmi: Pure-Python implementation of SNMP/SMI MIB parsing and conversion library 
    * 2.0.0 -test
 * pysnmp: Python SNMP library 
-   * 7.1.33 -test
+   * 7.1.34 -test
 * pysocks: SOCKS client module 
    * 1.7.1-r2 
 * pytest: Simple powerful testing with Python 
@@ -1220,7 +1220,7 @@ Found 55 matches
 * tomli-w: A lil' TOML writer 
    * 1.2.0 -test
 * tomlkit: Style preserving TOML library 
-   * 0.15.2 -test
+   * 0.15.3 -test
 * tox: virtualenv-based automation of test activities 
    * 4.67.15 -test -verify-provenance
 * tqdm: Add a progress meter to your loops in a second 
@@ -1270,9 +1270,9 @@ Found 55 matches
 * urllib3: HTTP library with thread-safe connection pooling, file post, and more 
    * 2.8.0 -brotli -http2 -test -verify-provenance -zstd
 * uv: A Python package installer and resolver, written in Rust 
-   * 0.13.9 -debug -test
+   * 0.13.10 -debug -test
 * uv-build: PEP517 uv build backend 
-   * 0.13.9 -test
+   * 0.13.10 -test
 * uv-dynamic-versioning: Dynamic versioning based on VCS tags for uv/hatch project 
    * 0.14.1 -test -verify-provenance
 * uvicorn: Lightning-fast ASGI server implementation 
