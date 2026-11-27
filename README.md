@@ -556,7 +556,7 @@ Found 55 matches
 * cachecontrol: httplib2 caching for requests 
    * 0.15.0 -test -verify-provenance
 * cachetools: Extensible memoizing collections and decorators 
-   * 8.0.2 -test
+   * 8.0.3 -test
 * cattrs: Composable complex class support for attrs and dataclasses 
    * 26.2.1 test-rust -test
 * cbor2: CBOR (de)serializer with extensive tag support 
@@ -600,7 +600,7 @@ Found 55 matches
 * cssselect: Parse CSS3 Selectors and translate them to XPath 1.0 
    * 1.6.0 -doc -test
 * cython: A Python to C compiler 
-   * 3.3.1 -debug -test -test-full
+   * 3.3.2 -debug -test -test-full
 * decorator: Simplifies the usage of decorators for the average programmer 
    * 5.3.2 
 * deepdiff: A library for comparing dictionaries, iterables, strings and other objects 
@@ -828,7 +828,7 @@ Found 55 matches
 * lxml: A Pythonic binding for the libxml2 and libxslt libraries 
    * 6.1.3 threads -debug -doc -examples -test
 * markdown: Python implementation of the markdown markup language 
-   * 3.11.3 -doc -test
+   * 3.11.4 -doc -test
 * markdown-it-py: Python port of markdown-it, Markdown parser 
    * 4.3.0 -test -verify-provenance
 * markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
@@ -1082,7 +1082,7 @@ Found 55 matches
 * referencing: Cross-specification JSON referencing (JSON Schema, OpenAPI...) 
    * 0.37.0 -test -verify-provenance
 * regex: Alternative regular expression module to replace re 
-   * 2026.11.23 -debug -doc
+   * 2026.11.25 -debug -doc
 * requests: HTTP library for human beings 
    * 2.34.2 test-rust -socks5 -test -verify-provenance
 * requests-file: File transport adapter for Requests 
@@ -1503,7 +1503,7 @@ Found 13 matches
 Found 9 matches
 ### net-proxy: Network proxy software
 * haproxy: A TCP/HTTP reverse proxy for high availability environments 
-   * 3.4.8 crypt doc net_ns pcre ssl threads zlib -51degrees -ech -examples -lua -pcre-jit -prometheus-exporter -quic -selinux -slz -systemd -test -tools -wurfl
+   * 3.4.9 crypt doc net_ns pcre ssl threads zlib -51degrees -ech -examples -lua -pcre-jit -prometheus-exporter -quic -selinux -slz -systemd -test -tools -wurfl
 ### net-wireless: Wireless networking software and utilities
 * bluez: Bluetooth Tools and System Daemons for Linux 
    * 5.88 mesh obex readline udev -btpclient -cups -debug -deprecated -doc -experimental -extra-tools -man -midi -selinux -systemd -test -test-programs
