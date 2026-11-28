@@ -109,8 +109,8 @@ Found 8 matches
    * 1.8.2 oniguruma -static-libs -test
 * mime-types: Provides /etc/mime.types file 
    * 2.1.54 -nginx
-* mosquitto: An Open Source MQTT v3 Broker 
-   * 2.0.22-r1 bridge persistence srv ssl -examples -systemd -tcpd -test -websockets
+* mosquitto: An Open Source MQTT Broker 
+   * 2.1.4 bridge persistence srv ssl -examples -systemd -tcpd -test -websockets
 * pax-utils: ELF utils that can check files for security relevant properties 
    * 1.3.11 -caps -man -python -seccomp -test
 * yq: Command-line YAML processor - jq wrapper for YAML documents 
@@ -998,7 +998,7 @@ Found 55 matches
 * pyopenssl: Python interface to the OpenSSL library 
    * 26.4.0 -doc -test -verify-provenance
 * pyotp: PyOTP is a Python library for generating and verifying one-time passwords 
-   * 2.12.1 -verify-provenance
+   * 2.12.2 -verify-provenance
 * pyparsing: Easy-to-use Python module for text parsing 
    * 3.3.3 -examples -test
 * pypng: Pure Python PNG image encoder/decoder 
@@ -1014,7 +1014,7 @@ Found 55 matches
 * pyquery: A jQuery-like library for python 
    * 2.1.0 -test
 * pyrate-limiter: Python Rate-Limiter using Leaky-Bucket Algorimth Family 
-   * 4.5.1 -doc -test -verify-provenance
+   * 4.6.0 -doc -test -verify-provenance
 * pyrfc3339: Generates and parses RFC 3339 timestamps 
    * 2.1.1 -test
 * pyroute2: A pure Python netlink and Linux network configuration library 
@@ -1128,7 +1128,7 @@ Found 55 matches
 * semantic-version: Python library providing a few tools handling SemVer in Python 
    * 2.10.0 -doc -test
 * semver: A Python module for semantic versioning 
-   * 3.1.2 -test
+   * 3.2.0 -test
 * service-identity: Service identity verification for pyOpenSSL 
    * 26.1.0 -test -verify-provenance
 * setuptools: Collection of extensions to Distutils 
@@ -1240,7 +1240,7 @@ Found 55 matches
 * typeguard: Run-time type checker for Python 
    * 4.6.1 -test -verify-provenance
 * typer: Build great CLIs. Easy to code. Based on Python type hints 
-   * 0.29.2 -cli -test
+   * 0.29.3 -cli -test
 * typing-extensions: Backported and Experimental Type Hints for Python 3.7+ 
    * 4.16.0 -test -verify-provenance
 * typing-inspection: Runtime typing introspection tools 
